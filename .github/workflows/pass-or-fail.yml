@@ -1,0 +1,15 @@
+name: Pass or Fail
+
+on:
+  workflow_dispatch:
+    inputs:
+      exit-code:
+        required: true
+        type: number
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pass? Fail?
+        run: exit ${{ inputs.exit-code }}
