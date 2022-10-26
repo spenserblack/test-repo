@@ -1,0 +1,11 @@
+#!/usr/bin/env	node
+`yes	this
+can	be
+run	by
+node	and
+it's	a
+tsv	file`
+console.log	('Hello World')
+let	foo
+=	1 + 2
+console.log	('1 + 2 =', foo)
