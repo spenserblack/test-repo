@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # vim: set ft=typescript:
-# The file looks like Ruby, it runs like Python, but GitHub thinks it's TypeScript.
+# The filename looks like Ruby, it runs like Python, but GitHub thinks it's TypeScript.
 import sys
 
 def main():
