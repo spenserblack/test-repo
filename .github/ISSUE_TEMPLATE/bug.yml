@@ -4,7 +4,7 @@ description: File a bug/issue
 title: "[BUG] <title>"
 labels: [Bug, Needs Triage]
 body:
- - type: checkboxes
+- type: checkboxes
   attributes:
     label: General Info
     description: You may select more than one.
