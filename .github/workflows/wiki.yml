@@ -1,0 +1,19 @@
+name: Update Wiki
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - '.github/wiki/**'
+  workflow_dispatch:
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    name: Update Wiki
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: spenserblack/actions-wiki@v0.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
