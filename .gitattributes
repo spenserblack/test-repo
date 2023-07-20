@@ -1,2 +1,3 @@
 .yarnrc linguist-language=YAML
 js.csv linguist-language=JavaScript
+tsconfig.*.json linguist-language=JSON-with-Comments
