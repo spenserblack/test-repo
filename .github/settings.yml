@@ -1,0 +1,4 @@
+issues:
+  - label-1
+  - name: label-2
+    description: test label
