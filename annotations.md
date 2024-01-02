@@ -1,4 +1,31 @@
->**Warning**
->This is a warning
+>[!NOTE]
+>This is a note
 
->**Warning** This is a warning?
+>[!CAUTION]
+>Caution
+
+>[!TIP]
+>Tip
+
+>[!WARNING]
+>Warning
+
+>[!IMPORTANT]
+>Important
+
+```markdown
+>[!NOTE]
+>This is a note
+
+>[!CAUTION]
+>Caution
+
+>[!TIP]
+>Tip
+
+>[!WARNING]
+>Warning
+
+>[!IMPORTANT]
+>Important
+```
