@@ -1,25 +1,19 @@
 # Test Repo
 
-## Admonition tests
+## Cheatsheet
 
-The current syntax is as of the time this is written is:
+### [Annotations][annotations]
 
-```markdown
-> [!NOTE]
-> This is a note
+> [!TIP]
+> GitHub supports admonitions like this. [See more][annotations].
 
-> [!WARNING]
-> This is a warning
+### Mermaid Charts
 
-> [!IMPORTANT]
-> This is important
-```
+See the `mermaid.*` files.
 
-> [!NOTE]
-> This is a note
+### Language Detection
 
-> [!WARNING]
-> This is a warning
+Browse the repository's files (and make sure to check out `.gitattributes`) to explore GitHub's language
+detection (by filename, by shebang, manual overrides).
 
-> [!IMPORTANT]
-> This is important
+[annotations]: ./annotations.md
