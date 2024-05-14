@@ -14,4 +14,4 @@ jobs:
           sparse-checkout: |
             .github/workflows/
           sparse-checkout-cone-mode: false
-      - run: ls -R
+      - run: ls -R .github/
