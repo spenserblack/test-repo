@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: |
+          filter: |
             .github/workflows/
       - run: ls -R
