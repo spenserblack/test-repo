@@ -1,0 +1,12 @@
+:root {
+  --color-fg: white;
+  --color-bg: black;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-fg: black;
+    --color-bg: white;
+  }
+}
