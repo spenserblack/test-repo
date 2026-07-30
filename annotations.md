@@ -17,6 +17,11 @@
 >[!IMPORTANT]
 >Important
 
+<blockquote>
+<p>[!NOTE]
+This also works???</p>
+</blockquote>
+
 ```markdown
 >[!NOTE]
 >This is a note
@@ -32,6 +37,11 @@
 
 >[!IMPORTANT]
 >Important
+
+<blockquote>
+<p>[!NOTE]
+This also works???</p>
+</blockquote>
 ```
 
 ## Links
